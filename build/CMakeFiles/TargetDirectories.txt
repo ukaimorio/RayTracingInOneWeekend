@@ -1,0 +1,3 @@
+C:/Users/22175/Desktop/RayTracingInOneWeekend/build/CMakeFiles/RayTracing.dir
+C:/Users/22175/Desktop/RayTracingInOneWeekend/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/22175/Desktop/RayTracingInOneWeekend/build/CMakeFiles/ZERO_CHECK.dir

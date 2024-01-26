@@ -1,0 +1,10 @@
+^C:\USERS\22175\DESKTOP\RAYTRACINGINONEWEEKEND\BUILD\CMAKEFILES\72E303EF695203A5657C7C24A46D1B20\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/22175/Desktop/RayTracingInOneWeekend -BC:/Users/22175/Desktop/RayTracingInOneWeekend/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/22175/Desktop/RayTracingInOneWeekend/build/RayTracing.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
